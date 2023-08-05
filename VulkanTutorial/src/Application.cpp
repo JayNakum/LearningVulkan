@@ -409,7 +409,7 @@ private:
         vkGetDeviceQueue(device, indices.graphicsFamily.value(), 0, &graphicsQueue);
         vkGetDeviceQueue(device, indices.presentFamily.value(), 0, &presentQueue);
     }
-
+/*
     void createWindowsSurface()
     {
         VkWin32SurfaceCreateInfoKHR createInfo{};
@@ -422,7 +422,7 @@ private:
             throw std::runtime_error("failed to create window surface!");
         }
     }
-
+*/
     void createSurface()
     {
         if (glfwCreateWindowSurface(instance, window, nullptr, &surface) != VK_SUCCESS)

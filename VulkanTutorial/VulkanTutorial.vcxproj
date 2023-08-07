@@ -449,6 +449,7 @@
     <ClInclude Include="vendors\glm\glm\vector_relational.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\compile_shaders.bat" />
     <None Include="vendors\glm\glm\detail\func_common.inl" />
     <None Include="vendors\glm\glm\detail\func_common_simd.inl" />
     <None Include="vendors\glm\glm\detail\func_exponential.inl" />
